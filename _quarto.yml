@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Daniel Chen"
+  # page-footer: |
+  #   Daniel Chen.
+
+  # repo-url: https://github.com/chendaniely/chendaniely-quarto
+  # repo-actions: [edit, issue]
+
+  navbar:
+    tools:
+    - icon: github
+      href: https://github.com/chendaniely/chendaniely-quarto
+
+    right:
+      - href: about/index.qmd
+        text: About
+        aria-label: "About Me"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: /assets/styles.css
+    toc: true
+
+editor:
+  render-on-save: true
+
+brand: _brand.yml
