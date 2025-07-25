@@ -14,10 +14,52 @@ website:
     - icon: github
       href: https://github.com/chendaniely/chendaniely-quarto
 
+    left:
+      - href: blog/index.qmd
+        text: Blog
+      - sidebar:teaching
+      - sidebar:talks
+      - href: projects/index.qmd
+        text: Projects
+
     right:
       - href: about/index.qmd
         text: About
         aria-label: "About Me"
+      - sidebar:beyond
+
+  sidebar:
+    - id: talks
+      title: "Talks"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents:
+        - href: talks/index.qmd
+          text: Talks
+        - href: talks/index.qmd
+          text: Workshops
+
+    - id: teaching
+      title: "Teaching"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents:
+        - href: teaching/index.qmd
+        - href: teaching/teaching_statement.qmd
+        - href: teaching/ubc.qmd
+
+    - id: beyond
+      title: "Beyond Work"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents:
+        - href: beyond_work/bike.qmd
+        - href: beyond_work/run.qmd
+        - href: beyond_work/scuba.qmd
+        - href: beyond_work/make.qmd
 
 format:
   html:
