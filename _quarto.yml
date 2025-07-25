@@ -61,6 +61,21 @@ website:
         - href: beyond_work/scuba.qmd
         - href: beyond_work/make.qmd
 
+  page-footer:
+    left: >-
+     &#169; Daniel Chen &#8729; Made with [Quarto](https://quarto.org)
+    center: |
+
+    right:
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contact.qmd"
+      - text: "License"
+        aria-label: "License Details"
+        href: license.qmd
+      - icon: rss
+        href: blog/index.xml
+
 format:
   html:
     theme:
