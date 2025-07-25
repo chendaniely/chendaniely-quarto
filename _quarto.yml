@@ -2,14 +2,14 @@ project:
   type: website
 
 website:
-  title: "Daniel Chen"
-  # page-footer: |
-  #   Daniel Chen.
+  title: "Daniel"
+  favicon: /assets/emotes/charged-dan-woohoo.png
 
   # repo-url: https://github.com/chendaniely/chendaniely-quarto
   # repo-actions: [edit, issue]
 
   navbar:
+    logo: /assets/emotes/charged-dan-highfive.png
     tools:
     - icon: github
       href: https://github.com/chendaniely/chendaniely-quarto
